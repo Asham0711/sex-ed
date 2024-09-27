@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        abhaya: ['"Abhaya Libre"', 'serif'],
+        inter: ['"Inter"', 'sans-serif'],
+        acme: ['"Acme"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
