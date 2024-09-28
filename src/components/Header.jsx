@@ -9,14 +9,14 @@ const Header = () => {
         <div className='p-5'>
             <img src={teamwise} alt="teamwise" className='w-40 h-10'/>
         </div>
-        <div className='flex w-11/12 mx-auto gap-8'>
-            <div className='w-[40%] flex items-center'>
-                <h1 className='font-bold text-3xl'>
+        <div className='flex flex-col-reverse md:flex-row w-11/12 mx-auto gap-8'>
+            <div className='md:w-[40%] w-11/12 mx-auto flex items-center'>
+                <h1 className='font-bold text-3xl text-center'>
                     Helping teens navigate puberty, relationships, and self-discovery with trusted information.
                 </h1>
             </div>
-            <div className='w-[60%]'>
-                <img src={headerImg} alt="header image" className='w-full h-60' />
+            <div className='md:w-[60%] w-11/12 mx-auto'>
+                <img src={headerImg} alt="header image" className='w-full md:h-60' />
             </div>
         </div>
     </div>

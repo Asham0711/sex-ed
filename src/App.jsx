@@ -6,6 +6,9 @@ import Header from "./components/Header"
 import NavBar from "./components/NavBar"
 import Anatomy from "./pages/Anatomy"
 import Understanding from "./pages/Understanding"
+import Touch from './pages/Touch'
+import Safety from "./pages/Safety"
+import Reproductive from "./pages/Reproductive"
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Understanding/>} />
           <Route path="/anatomy-and-reproduction" element={<Anatomy/>}/>
+          <Route path="/good-bad-touch" element={<Touch/>} />
+          <Route path="/safety" element={<Safety/>} />
+          <Route path="/reproductive-health" element={<Reproductive />} />
         </Routes>
         <Footer />
       </div>
